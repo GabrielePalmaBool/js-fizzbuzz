@@ -58,7 +58,7 @@ for(let i = 1; i<=100; i++){
 
          // Creo il div completo con l'aggiunta del numero
          const square = 
-         '<div class="square"><div class="label">' + i + '</div></div>';
+         '<div class="square"><div class="text">' + i + '</div></div>';
  
          // aggiungo il div alla row di bootstrap
          row.innerHTML += square;
