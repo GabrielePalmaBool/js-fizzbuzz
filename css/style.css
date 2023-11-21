@@ -1,0 +1,11 @@
+/*  Stili generali di pagina */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: rgb(8, 59, 76);
+    width:100%;
+}
