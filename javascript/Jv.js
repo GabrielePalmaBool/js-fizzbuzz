@@ -8,7 +8,7 @@
 
 
 
-// acquisisco 
+// acquisisco l'elemento che ha per classe row, dove andrò ad inserire i vari div square
 const row = document.querySelector(".row");
 
 
