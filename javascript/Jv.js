@@ -21,7 +21,7 @@ for(let i = 1; i<=100; i++){
         console.log(i);
 
         // Creo il div completo
-        const square = 
+        let square = 
 
         '<div class="square" style="background-color: rgb(240, 70, 111);"><div class="text">fizzbuzz</div></div>';
 
@@ -33,7 +33,8 @@ for(let i = 1; i<=100; i++){
     else if (i%3 == 0 ) {
 
          // Creo il div completo
-         const square = 
+         let square = 
+
          '<div class="square" style="background-color: rgb(12, 214, 161);"><div class="text">fizz</div></div>';
  
          // aggiungo il div alla row di bootstrap
@@ -45,7 +46,8 @@ for(let i = 1; i<=100; i++){
     else if (i%5 == 0){
 
          // Creo il div completo
-         const square = 
+         let square = 
+
          '<div class="square" style="background-color: rgb(255, 209, 102);"><div class="text">buzz</div></div>';
  
          // aggiungo il div alla row di bootstrap
@@ -57,7 +59,8 @@ for(let i = 1; i<=100; i++){
     else {
 
          // Creo il div completo con l'aggiunta del numero
-         const square = 
+         let square = 
+         
          '<div class="square"><div class="text">' + i + '</div></div>';
  
          // aggiungo il div alla row di bootstrap
